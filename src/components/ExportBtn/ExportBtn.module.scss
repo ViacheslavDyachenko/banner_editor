@@ -1,0 +1,15 @@
+@import "styles/rootStyle.scss";
+.toolbar__export_btn {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    @include font(bold, 14px, $whiteColor);
+    background-color: $bgc;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    right: 40px;
+    top: 5px;
+    &:hover {
+        background-color: $blackColor;
+    }
+}

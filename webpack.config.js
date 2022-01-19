@@ -139,7 +139,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
     alias: {
         components: path.join(srcPath, 'components'),
-        img: path.join(srcPath, 'img'),
+        images: path.join(srcPath, 'images'),
         pages: path.join(srcPath, 'pages'),
         store: path.join(srcPath, 'store'),
         styles: path.join(srcPath, 'styles'),

@@ -3,7 +3,7 @@
     "baseUrl": "src",
     "paths": {
       "components": ["components"],
-      "img": ["img"],
+      "images": ["images"],
       "pages": ["pages"],
       "store": ["store"],
       "styles": ["styles"],

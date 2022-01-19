@@ -1,0 +1,18 @@
+$bgc: #343434;
+$whiteColor: #fff;
+$blackColor: #000;
+$activeColor: #c4c4c4;
+
+@mixin font($weight, $size, $color) {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

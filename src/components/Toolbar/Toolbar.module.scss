@@ -1,0 +1,15 @@
+@import '../../styles/rootStyle.scss';
+.toolbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 50px;
+    background-color: $bgc;
+    &__section {
+        width: 240px;
+    }
+    &__title {
+        @include font(bold, 18px, $whiteColor);
+        margin: auto;
+    }
+}
